@@ -1,4 +1,3 @@
-// _app.tsx
 import '@styles/globals.css';
 
 import { FC } from 'react';
