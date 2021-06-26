@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import NavBar from '@common/components/navBar/NavBar';
+import NavBar from '@components/common/navBar/NavBar';
 
 interface Props {
   children: React.ReactElement;

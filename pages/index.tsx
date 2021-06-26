@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import Head from 'next/head';
-import MainLayout from '@common/components/mainLayout/MainLayout';
+import MainLayout from '@components/common/mainLayout/MainLayout';
 import appConfig from '../appConfig.json';
 
 const Home: FC = () => {
