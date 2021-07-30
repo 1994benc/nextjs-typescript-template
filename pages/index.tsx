@@ -5,7 +5,7 @@ import appConfig from '../appConfig.json';
 
 const Home: FC = () => {
   return (
-    <MainLayout appName={appConfig.name} brandImageUrl={appConfig.brandImageUrl}>
+    <MainLayout>
       <Head>
         <title>{appConfig.name}</title>
       </Head>

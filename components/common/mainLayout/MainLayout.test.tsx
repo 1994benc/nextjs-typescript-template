@@ -7,7 +7,7 @@ describe('Main layout component', () => {
     const childTestId = 'test-child';
     const children = <div data-testid={childTestId}>Children</div>;
     render(
-      <MainLayout appName="Name" brandImageUrl="">
+      <MainLayout>
         {children}
       </MainLayout>
     );
@@ -18,7 +18,7 @@ describe('Main layout component', () => {
   test('should contain the nav bar component', () => {
     const children = <div>Children</div>;
     render(
-      <MainLayout appName="App name" brandImageUrl="">
+      <MainLayout>
         {children}
       </MainLayout>
     );

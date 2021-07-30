@@ -1,16 +1,15 @@
 import React, { ReactElement } from 'react';
 import NavBar from '@components/common/navBar/NavBar';
+import appConfig from '../../../appConfig.json';
 
 interface Props {
   children: React.ReactElement;
-  brandImageUrl: string;
-  appName: string;
 }
 
-export default function MainLayout({ children, brandImageUrl, appName }: Props): ReactElement {
+export default function MainLayout({ children }: Props): ReactElement {
   return (
     <div>
-      <NavBar title={appName} brandImageUrl={brandImageUrl} />
+      <NavBar title={appConfig.name} brandImageUrl={appConfig.brandImageUrl} />
       {children}
     </div>
   );
